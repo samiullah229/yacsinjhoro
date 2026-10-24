@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Youth Action Committee Sinjhoro | Together for a Better Tomorrow</title>
+  <meta name="description" content="Youth Action Committee (YAC) Sinjhoro is a youth-led community organization built on unity, discipline, faith, responsibility and community service." />
+  <meta name="keywords" content="Youth Action Committee, YAC Sinjhoro, youth empowerment, community service, Sindh youth organization" />
+
+  <!-- Open Graph metadata -->
+  <meta property="og:title" content="Youth Action Committee Sinjhoro" />
+  <meta property="og:description" content="Together We Act. Together We Rise. A youth-led movement for unity, discipline, faith and community service in Sinjhoro." />
+  <meta property="og:image" content="images/logo.png" />
+  <meta property="og:type" content="website" />
+
+  <link rel="icon" href="images/logo.png" type="image/png" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="./css/member.css">
+</head>
+<body>
+
+  <!-- Scroll progress indicator -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- =========================
+       NAVBAR
+       Sticky header shared across all pages.
+  ========================= -->
+  <header class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-brand">
+        <img src="images/logo.png" alt="Youth Action Committee Sinjhoro logo" />
+        <span class="nav-brand-text">
+          <span class="brand-main">Youth Action Committee</span>
+          <span class="brand-sub">Sinjhoro</span>
+        </span>
+      </a>
+
+      <nav class="nav-links" id="navLinks" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="leadership.html">Leadership</a>
+      
+        <a href="gallery.html">Gallery</a>
+        <a href="join.html">Join Us</a>
+        
+      </nav>
+
+      <div class="nav-actions">
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- =========================
+       ANNOUNCEMENT TICKER
+       A slow-scrolling strip of short inspiring lines. Pauses on
+       hover/focus and freezes for users who prefer reduced motion.
+  ========================= -->
+  <div class="ticker" aria-label="Announcements">
+    <div class="ticker-track">
+      <span>UNITY •  FAITH • DISCIPLINE • SERVICE • ACTION</span>
+      <span>Together We Act. Together We Rise.</span>
+      <span>Join the movement — become part of YAC Sinjhoro today.</span>
+      <span>Building a stronger, safer, more united Sinjhoro.</span>
+      <span>UNITY •  FAITH •DISCIPLINE • SERVICE • ACTION</span>
+      <span>Together We Act. Together We Rise.</span>
+      <span>Join the movement — become part of YAC Sinjhoro today.</span>
+      <span>Building a stronger, safer, more united Sinjhoro.</span>
+    </div>
+  </div>
+
+  <!-- =========================
+       HERO SECTION
+       Full-screen image carousel with overlaid heading, supporting
+       detail, an inspirational quote and calls to action. Slides
+       auto-advance; see js/main.js (.carousel-generic init).
+  ========================= -->
+ 
+<section class="hero-carousel" id="heroSection">
+
+  <!-- Decorative Glow -->
+  <div class="hero-glow g1"></div>
+  <div class="hero-glow g2"></div>
+
+  <!-- Decorative Stars -->
+  <svg class="hero-star star-one" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+    <path d="M12 2l2.4 7.4H22l-6 4.4 2.3 7.4L12 16.8 5.7 21.2 8 13.8 2 9.4h7.6z"/>
+  </svg>
+
+  <svg class="hero-star star-two" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+    <path d="M12 2l2.4 7.4H22l-6 4.4 2.3 7.4L12 16.8 5.7 21.2 8 13.8 2 9.4h7.6z"/>
+  </svg>
+
+  <!-- Carousel Images -->
+  <div class="carousel-generic">
+
+    <div class="carousel-track">
+
+      <div class="carousel-slide">
+        <img src="./images/3rd picture.jpg"
+             alt="YAC Sinjhoro community activities"
+             fetchpriority="high">
+      </div>
+
+      <div class="carousel-slide">
+        <img src="./images/2nd picture.jpg"
+             alt="YAC Sinjhoro youth activities"
+             loading="lazy">
+      </div>
+
+      <div class="carousel-slide">
+        <img src="./images/1st picture.jpg"
+             alt="YAC Sinjhoro community engagement"
+             loading="lazy">
+      </div>
+
+      <div class="carousel-slide">
+        <img src="./images/image 4.jpg"
+             alt="YAC Sinjhoro initiatives"
+             loading="lazy">
+      </div>
+
+    </div>
+
+    <!-- Dark Overlay -->
+    <div class="carousel-shade"></div>
+
+    <!-- Navigation Arrows -->
+    <div class="carousel-controls">
+      <button type="button" class="carousel-btn prev" aria-label="Previous slide">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M15 18l-6-6 6-6"/>
+        </svg>
+      </button>
+
+      <button type="button" class="carousel-btn next" aria-label="Next slide">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M9 18l6-6-6-6"/>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Navigation Dots -->
+    <div class="carousel-dots"></div>
+
+  </div>
+
+  <!-- Hero Content -->
+  <div class="hero-overlay">
+    <div class="hero-overlay-inner">
+
+      <!-- <span class="hero-badge">
+        Youth Action Committee • Sinjhoro
+      </span> -->
+<!-- 
+      <h1>
+        Together We Act.<br>
+        Together We <span>Rise.</span>
+      </h1> -->
+
+      <!-- <p class="hero-detail">
+        United by purpose. Driven by action.
+        Building a stronger community together.
+      </p> -->
+
+      <p class="hero-quote">
+        Small Actions. Stronger Communities. A Brighter Future.
+      </p>
+
+    </div>
+  </div>
+
+  <!-- Scroll Indicator -->
+  <a href="#about" class="hero-scroll-cue" aria-label="Scroll to next section">
+    <span></span>
+  </a>
+
+</section>
+
+
+
+  
+<!-- YAC SINJHORO — LANDING PAGE SECTIONS -->
+<main class="yac-home">
+
+  <!-- WELCOME SECTION -->
+  <section class="yac-welcome" id="welcome">
+    <div class="yac-wrap yac-welcome-grid">
+
+      <div class="yac-welcome-content yac-reveal">
+        <span class="yac-eyebrow">
+          <span class="yac-eyebrow-line"></span>
+          YOUTH ACTION COMMITTEE · SINJHORO
+        </span>
+
+        <h2>
+          A Stronger Community
+          <span>Starts With Us.</span>
+        </h2>
+
+        <p class="yac-intro">
+          We believe meaningful change begins when young people come
+          together with a shared purpose. Through unity, discipline,
+          faith and service, we aim to build a more active, responsible
+          and supportive community in Sinjhoro.
+        </p>
+
+        <div class="yac-welcome-actions">
+          <a href="about.html" class="yac-btn yac-btn-primary">
+            Discover Our Mission
+            <span aria-hidden="true">↗</span>
+          </a>
+    
+        </div>
+
+       
+      </div>
+ <div class="about-logo-visual reveal reveal-scale">
+          <div class="about-logo-ring"></div>
+          <img src="images/logo.png" alt="Youth Action Committee Sinjhoro logo" class="about-logo-img" />
+          <p class="about-logo-tagline">Together We Act. Together We Rise.<span>Youth Action Committee — Sinjhoro</span></p>
+        </div>
+     
+    </div>
+  </section>
+
+
+  
+  <!-- WHAT WE DO -->
+  <!-- =========================
+       OUR FOCUS AREAS
+       A 3-slide carousel styled like the homepage's featured
+       campaign section, cycling through YAC Sinjhoro's core areas
+       of activity. See js/main.js (.carousel-generic init).
+  ========================= -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Where We Focus</span>
+        <h2>Areas of Action</h2>
+        <p>Three ongoing priorities that shape what YAC Sinjhoro does on the ground.</p>
+      </div>
+
+      <div class="feature-carousel carousel-generic reveal reveal-scale">
+        <div class="carousel-track">
+
+          <div class="carousel-slide">
+            <div class="feature-band">
+              <div class="feature-media">
+                <!-- Replace with official YAC road-safety campaign photograph -->
+                <div class="image-placeholder light" role="img" aria-label="Placeholder for road safety campaign photograph">
+                  <img src="./images/About/Road safety program.jpg" alt="">
+                </div>
+              </div>
+              <div class="feature-text">
+                <span class="eyebrow">Focus Area 01</span>
+                <h3 style="margin-bottom:14px; font-size:22px;">Road Safety — Protecting Lives Through Awareness</h3>
+                <p style="color:var(--text-muted);">Every trip should end safely. We work to build habits and awareness that keep our roads safer for everyone.</p>
+                <ul>
+                  <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Responsible, attentive driving</li>
+                  <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Following traffic rules and signals</li>
+                  <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Protecting pedestrians and riders</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-slide">
+            <div class="feature-band">
+              <div class="feature-media">
+                <!-- Replace with official YAC youth empowerment photograph -->
+                <div class="image-placeholder light" role="img" aria-label="Placeholder for youth empowerment photograph">
+                 <img src="./images/About/studey acitivities.jpg" alt="">
+                </div>
+              </div>
+              <div class="feature-text">
+                <span class="eyebrow">Focus Area 02</span>
+                <h3 style="margin-bottom:14px; font-size:22px;">Youth Empowerment — Building Tomorrow's Leaders</h3>
+                <p style="color:var(--text-muted);">We give young people real responsibility now, not just promises about the future.</p>
+                <ul>
+                  <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Hands-on leadership opportunities</li>
+                  <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Mentorship within the committee</li>
+                  <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> A platform to organize and act</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-slide">
+            <div class="feature-band">
+              <div class="feature-media">
+                <!-- Replace with official YAC community service photograph -->
+                <div class="image-placeholder light" role="img" aria-label="Placeholder for community service photograph">
+                <img src="./images/1st picture.jpg" alt="">
+                </div>
+              </div>
+              <div class="feature-text">
+                <span class="eyebrow">Focus Area 03</span>
+                <h3 style="margin-bottom:14px; font-size:22px;">Community Service — Action With Purpose</h3>
+                <p style="color:var(--text-muted);">Discipline and faith mean little without service. We show up where our town needs us most.</p>
+                <ul>
+                  <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Organized community clean-ups</li>
+                  <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Support for local initiatives</li>
+                  <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Consistent, reliable presence</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="carousel-controls">
+          <button class="carousel-btn prev" aria-label="Previous focus area">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+          </button>
+          <button class="carousel-btn next" aria-label="Next focus area">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+          </button>
+        </div>
+        <div class="carousel-dots"></div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- IMPACT / COMMUNITY PROMISE -->
+ 
+<!-- YAC ACCOUNTABILITY SECTION -->
+<section class="yac-account" id="accountability">
+  <div class="yac-account__container">
+
+    <div class="yac-account__header">
+      <span class="yac-account__eyebrow">
+        <span class="yac-account__eyebrow-line"></span>
+        OUR WORKING SYSTEM
+      </span>
+
+      <h2>
+        Responsible Youth.<br>
+        <span>Meaningful Change.</span>
+      </h2>
+
+      <p>
+        We believe in clear responsibilities, honest teamwork,
+        and real results. Every member has a role, every action
+        has a purpose, and every effort serves our community.
+      </p>
+    </div>
+
+    <!-- CORE PRINCIPLES -->
+    <div class="yac-account__grid">
+
+      <article class="yac-account__card">
+        <div class="yac-account__card-top">
+          <div class="yac-account__icon">
+            <svg viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="1.8"
+              stroke-linecap="round" stroke-linejoin="round"
+              aria-hidden="true">
+              <circle cx="12" cy="8" r="4"/>
+              <path d="M5 21v-2a7 7 0 0 1 14 0v2"/>
+              <path d="m9 13 2 2 4-4"/>
+            </svg>
+          </div>
+          <span class="yac-account__index">01</span>
+        </div>
+
+        <span class="yac-account__tag">RESPONSIBILITY</span>
+        <h3>Know Your Role</h3>
+        <p>
+          Every member receives clear duties according to their
+          skills, experience, and ability.
+        </p>
+
+        <div class="yac-account__footer">
+          <span>Clear Duties</span>
+          <svg viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round"
+            aria-hidden="true">
+            <path d="M5 12h14m-6-6 6 6-6 6"/>
+          </svg>
+        </div>
+      </article>
+
+      <article class="yac-account__card">
+        <div class="yac-account__card-top">
+          <div class="yac-account__icon yac-account__icon--gold">
+            <svg viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="1.8"
+              stroke-linecap="round" stroke-linejoin="round"
+              aria-hidden="true">
+              <path d="M12 3 3.5 7.5 12 12l8.5-4.5L12 3Z"/>
+              <path d="m3.5 12 8.5 4.5 8.5-4.5"/>
+              <path d="m3.5 16.5 8.5 4.5 8.5-4.5"/>
+            </svg>
+          </div>
+          <span class="yac-account__index">02</span>
+        </div>
+
+        <span class="yac-account__tag">OWNERSHIP</span>
+        <h3>Take Responsibility</h3>
+        <p>
+          Members take ownership of their assigned areas,
+          understand local needs, and work towards solutions.
+        </p>
+
+        <div class="yac-account__footer">
+          <span>Local Action</span>
+          <svg viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round"
+            aria-hidden="true">
+            <path d="M5 12h14m-6-6 6 6-6 6"/>
+          </svg>
+        </div>
+      </article>
+
+      <article class="yac-account__card">
+        <div class="yac-account__card-top">
+          <div class="yac-account__icon yac-account__icon--blue">
+            <svg viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="1.8"
+              stroke-linecap="round" stroke-linejoin="round"
+              aria-hidden="true">
+              <path d="M12 22s8-4 8-11V5l-8-3-8 3v6c0 7 8 11 8 11Z"/>
+              <path d="m9 12 2 2 4-4"/>
+            </svg>
+          </div>
+          <span class="yac-account__index">03</span>
+        </div>
+
+        <span class="yac-account__tag">ACCOUNTABILITY</span>
+        <h3>Show Real Results</h3>
+        <p>
+          We share progress, report challenges, and remain
+          answerable to our team and community.
+        </p>
+
+        <div class="yac-account__footer">
+          <span>Honest Reporting</span>
+          <svg viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round"
+            aria-hidden="true">
+            <path d="M5 12h14m-6-6 6 6-6 6"/>
+          </svg>
+        </div>
+      </article>
+
+    </div>
+
+    <!-- REPORTING SYSTEM -->
+    <div class="yac-account__report">
+
+      <div class="yac-account__report-heading">
+        <span class="yac-account__eyebrow">
+          <span class="yac-account__eyebrow-line"></span>
+          OUR ACCOUNTABILITY CYCLE
+        </span>
+        <h3>Every Step. Every Result.</h3>
+        <p>A simple system to keep our work organised and transparent.</p>
+      </div>
+
+      <div class="yac-account__report-grid">
+
+        <div class="yac-account__report-item">
+          <div class="yac-account__report-icon">
+            <svg viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="1.8"
+              stroke-linecap="round" stroke-linejoin="round"
+              aria-hidden="true">
+              <rect x="3" y="4" width="18" height="17" rx="2"/>
+              <path d="M16 2v4M8 2v4M3 10h18"/>
+              <path d="m8 15 2 2 5-5"/>
+            </svg>
+          </div>
+          <div>
+            <span class="yac-account__report-frequency">EVERY WEEK</span>
+            <h4>Progress Reports</h4>
+            <p>Review completed tasks, challenges, and next steps.</p>
+          </div>
+        </div>
+
+        <div class="yac-account__report-item">
+          <div class="yac-account__report-icon yac-account__report-icon--gold">
+            <svg viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="1.8"
+              stroke-linecap="round" stroke-linejoin="round"
+              aria-hidden="true">
+              <rect x="3" y="5" width="18" height="16" rx="2"/>
+              <path d="M7 3v4m10-4v4M3 10h18"/>
+              <path d="M8 14h3m2 0h3M8 17h3"/>
+            </svg>
+          </div>
+          <div>
+            <span class="yac-account__report-frequency">EVERY MONTH</span>
+            <h4>Public Updates</h4>
+            <p>Share activities, financial records, and community progress.</p>
+          </div>
+        </div>
+
+        <div class="yac-account__report-item">
+          <div class="yac-account__report-icon yac-account__report-icon--blue">
+            <svg viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="1.8"
+              stroke-linecap="round" stroke-linejoin="round"
+              aria-hidden="true">
+              <path d="M3 3v18h18"/>
+              <path d="m7 14 4-4 4 4 6-8"/>
+              <path d="M16 6h5v5"/>
+            </svg>
+          </div>
+          <div>
+            <span class="yac-account__report-frequency">EVERY YEAR</span>
+            <h4>Annual Review</h4>
+            <p>Evaluate achievements, learn from experience, and set new goals.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- FINAL STATEMENT -->
+    
+
+  </div>
+</section>
+
+
+
+  <!-- MEMBERSHIP CALL TO ACTION -->
+  <section class="yac-join" id="yac-membership">
+    <div class="yac-wrap">
+      <div class="yac-join-inner yac-reveal">
+
+        <div class="yac-join-mark" aria-hidden="true">Y</div>
+
+        <span class="yac-eyebrow">BE PART OF THE JOURNEY</span>
+        <h2>Your Community.<br><span>Your Responsibility.</span></h2>
+        <p>
+          If you believe in unity, discipline, faith and community
+          service, take the first step towards becoming part of YAC
+          Sinjhoro.
+        </p>
+      <a href="join.html" class="btn btn-gold">Join the Movement</a>
+
+
+    </div>
+  </section>
+
+</main>
+<!-- END YAC LANDING PAGE SECTIONS -->
+
+  <!-- =========================
+       FOOTER
+  ========================= -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="footer-brand">
+            <img src="images/logo.png" alt="YAC Sinjhoro logo" />
+            <span>Youth Action Committee — Sinjhoro</span>
+          </div>
+          <p style="font-size:14px;">Together for a stronger, safer and better community.</p>
+          <div class="footer-social">
+            <!-- Social links are placeholders until official YAC accounts are provided -->
+            <a href="#" aria-label="Facebook"><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.4v7A10 10 0 0 0 22 12z"/></svg></a>
+            <a href="#" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.6" fill="currentColor"/></svg></a>
+            <a href="#" aria-label="WhatsApp"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 3.5A11 11 0 0 0 3.4 17.4L2 22l4.7-1.4A11 11 0 1 0 20.5 3.5z"/></svg></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h5>Explore</h5>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="leadership.html">Leadership</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>More</h5>
+          <ul>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="join.html">Join Us</a></li>
+            
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Contact</h5>
+          <ul>
+            <li>Sinjhoro, Sindh</li>
+            <li>0322-3459314</li>
+            <li>Email: To be added</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 Youth Action Committee Sinjhoro. All Rights Reserved.</div>
+    </div>
+  </footer>
+
+  <!-- Back to top button -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
